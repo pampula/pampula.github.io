@@ -19,10 +19,18 @@ nav {
     overflow: hidden;
     background-color: #333;
   }
+
+  nav h3 {
+    margin: 0px;
+    padding: 14px 16px 0px 14px;
+    float: left;
+    line-height: inherit;
+    background-color: #333;
+    text-align: center;
+}
   
   nav a {
     float: left;
-    align-self: center;
     display: block;
     color: white;
     background-color: #333;
