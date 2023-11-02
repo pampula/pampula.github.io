@@ -46,8 +46,9 @@ nav {
 .content {
     margin-top: 2em;
     margin-bottom: 2em;
-    margin-left: 3em;
+    margin-left: 2em;
     margin-right: 5em;
+    grid-row: 2;
 }
 
 .content a {
@@ -75,4 +76,19 @@ nav {
 
 .project {
   display: inline-block;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+footer {
+  margin: 2em;
+}
+
+footer a {
+  color: rgb(245, 90, 245);;
 }
