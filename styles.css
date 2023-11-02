@@ -47,6 +47,10 @@ nav {
     margin: 2em;
 }
 
+.content a {
+  color: rgb(245, 90, 245);
+}
+
 .skill-group {
   max-width: 50%;
   margin-bottom: 50px;
@@ -60,4 +64,12 @@ nav {
   border: 1px solid #333;
   border-radius: 10px;
   white-space: nowrap;
+}
+
+.project-group {
+  margin-bottom: 50px;
+}
+
+.project {
+  display: inline-block;
 }
