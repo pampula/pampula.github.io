@@ -86,9 +86,24 @@ body {
 }
 
 footer {
+  display: inline-block;
   margin: 2em;
 }
 
 footer a {
-  color: rgb(245, 90, 245);;
+  color: rgb(245, 90, 245);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  align-self: flex-start;
+}
+
+.footer-right {
+  align-self: flex-end;
 }
