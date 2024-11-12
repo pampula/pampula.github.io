@@ -1,0 +1,94 @@
+* {
+    font-family: 'Cutive Mono', monospace;
+    background-color: #111;
+    color: white;
+}
+
+h1 {
+    font-family: 'Cutive Mono', monospace;
+    padding-bottom: 0.5em;
+}
+
+h2 {
+    font-family: 'Cutive Mono', monospace;
+}
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  nav h3 {
+    margin: 0px;
+    padding: 14px 16px 0px 14px;
+    float: left;
+    line-height: inherit;
+    background-color: #333;
+    text-align: center;
+}
+  
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover, .active {
+    background-color: #111;
+  }
+
+.content {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 5em;
+    grid-row: 2;
+}
+
+.content a {
+  color: rgb(245, 90, 245);
+}
+
+.skill-group {
+  max-width: 50%;
+  margin-bottom: 50px;
+}
+
+.skill {
+  display: inline-block;
+  background-color: #333;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.project-group {
+  margin-bottom: 50px;
+}
+
+.project {
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+footer {
+  margin: 2em;
+}
+
+footer a {
+  color: rgb(245, 90, 245);;
+}
